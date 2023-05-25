@@ -1,0 +1,100 @@
+.sidebar {
+    position: fixed;
+    color: gray;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 210px;
+    padding-left: 20px;
+    
+    color: rgb(189, 187, 187);
+
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+
+    
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.spotify-logo {
+    height: 40px;
+    margin-right: 70px;
+}
+
+.first-options {
+    display: flex;
+    flex-direction: column;
+    
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.home, .search, .your-library {
+    padding: 12px;
+}
+
+.home:hover, .search:hover, .your-library:hover,
+.create-playlist:hover, .liked-songs:hover {
+    color: white;
+}
+
+.home, .search, .your-library {
+    display: flex;
+    align-items: center;
+}
+
+.home-icon, .search-icon, .your-library-icon {
+    margin-right: 15px;
+    height: 20px;
+}
+
+
+.create-and-liked {
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.create-playlist {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.create-playlist-symbol {
+    margin-right: 14px;
+    background-color: rgb(223, 220, 220);
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    margin-left: 12px;
+}
+
+.liked-songs {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.liked-songs-symbol {
+    margin-right: 15px;
+    color: rgb(238, 230, 230);
+    background-color: rgb(109, 109, 184);
+    font-size: 15px;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+
+}

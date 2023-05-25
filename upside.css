@@ -1,0 +1,115 @@
+.upside {
+    height: 340px;
+    background-color: rgb(54, 53, 53);
+    box-shadow: 5px 5px 100px 30px rgba(99, 98, 98, 0.2);
+    
+}
+
+.artist-picture {
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 120px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 40px 10px rgba(0, 0, 0, 0.3);
+}
+
+.artist-name {
+    position: relative;
+    color: white;
+    left: 470px;
+    bottom: 175px;
+    font-size: 95px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    width: 300px;
+}
+
+.listeners-number {
+    position: relative;
+    left: 470px;
+    bottom: 130px;
+    color: white;
+    width: 300px;
+}
+
+.verified {
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 470px;
+    bottom: 355px;
+    font-size: 13px;
+    width: 300px;
+}
+
+.verified-symbol {
+    margin-right: 5px;
+    height: 25px;
+
+}
+
+.signup-login-buttons {
+    position: relative;
+    left: 1145px;
+    bottom: 460px;
+    width: 200px;
+}
+
+.signup-button {
+    display: inline-block;
+    background-color: rgb(54, 53, 53);
+    border: none;
+    color: rgb(177, 177, 177);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.signup-button:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.login-button {
+
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: bold;
+    background-color: rgb(248, 244, 244);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    transform: scale(1.05);
+}
+
+.back-foward-buttons {
+    position: relative;
+    left: 250px;
+    bottom: 500px;
+    width: 100px;
+}
+
+.back, .foward {
+    border: none;
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.back {
+   margin-right: 5px;
+}
