@@ -1,7 +1,7 @@
 .upside {
-    height: 340px;
     background-color: rgb(54, 53, 53);
     box-shadow: 5px 5px 100px 30px rgba(99, 98, 98, 0.2);
+    height: 350px;
     
 }
 
@@ -16,20 +16,21 @@
 .artist-name {
     position: relative;
     color: white;
-    left: 470px;
     bottom: 175px;
     font-size: 95px;
     font-weight: bold;
     letter-spacing: -5px;
     width: 300px;
+    margin-left: 460px;
 }
 
 .listeners-number {
     position: relative;
-    left: 470px;
+    
     bottom: 130px;
     color: white;
     width: 300px;
+    margin-left: 460px;
 }
 
 .verified {
@@ -37,7 +38,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    left: 470px;
+    margin-left: 460px;
     bottom: 355px;
     font-size: 13px;
     width: 300px;
@@ -49,10 +50,22 @@
 
 }
 
+.artist-info {
+    margin-left: 14px;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex: 1;
+    
+}
+
 .signup-login-buttons {
+    display: flex;
     position: relative;
-    left: 1145px;
-    bottom: 460px;
     width: 200px;
 }
 
@@ -91,9 +104,9 @@
 
 .back-foward-buttons {
     position: relative;
-    left: 250px;
-    bottom: 500px;
     width: 100px;
+    margin-left: 250px;
+    bottom: 460px;
 }
 
 .back, .foward {
