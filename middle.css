@@ -54,3 +54,43 @@
     font-size: 30px;
     margin-bottom: 12px;
 }
+
+
+.popular-songs {
+    margin-left: 260px;
+    margin-top: 40px;
+    color: white;
+}
+
+.popular-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.songs {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.popular-song-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.popular-right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 55px;
+}
+
+.cover-art {
+    height: 40px;
+}
