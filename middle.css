@@ -75,6 +75,16 @@
 .popular-song-div {
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+    padding-left: 15px;
+    
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+    position: relative;
+    right: 40px;
+
+    margin-left: 20px;
 }
 
 .popular-left-side {
@@ -88,9 +98,43 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 55px;
+    margin-right: 10px;
+}
+
+.song-index {
+    margin-right: 8px;
+}
+
+.song-title {
+    cursor: pointer;
+    
+}
+
+.song-title:hover {
+    text-decoration: underline;
 }
 
 .cover-art {
     height: 40px;
+}
+
+.like-button {
+    opacity: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.popular-song-div:hover {
+    .like-button, .more {
+        opacity: 1;
+    }
+
+    background-color: rgb(54, 53, 53);
+
+}
+
+.more {
+    margin-bottom: 13px;
+    font-weight: bold;
+    opacity: 0;
 }
