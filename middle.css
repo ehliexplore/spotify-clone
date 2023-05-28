@@ -138,3 +138,18 @@
     font-weight: bold;
     opacity: 0;
 }
+
+.see-more {
+    margin-left: 8px;
+    margin-top: 17px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(204, 201, 201);
+    background-color: transparent;
+    border: none;
+
+}
+
+.see-more:hover {
+    color: white;
+}

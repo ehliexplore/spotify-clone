@@ -1,0 +1,86 @@
+.album-1 {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 270px;
+    width: 180px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(34, 32, 32);
+    margin-left: 260px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.album {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 270px;
+    width: 180px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(34, 32, 32);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.album-1:hover, .album:hover {
+    background-color: rgb(44, 42, 42);
+}
+
+.album-img {
+    position: absolute;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+
+.album-info {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 160px;
+    color: gray;
+}
+
+.album-title {
+    margin-top: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.album-info-1 {
+    font-size: 14px;
+}
+
+.popular-releases-title {
+    height: 20px;
+    margin-left: 260px;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.popular-releases-content {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
