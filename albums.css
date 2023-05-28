@@ -84,3 +84,40 @@
     margin-right: 40px;
 }
 
+.full-albums-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    gap: 20px;
+    margin-top: 13px;
+}
+
+.full-albums-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 260px;
+    margin-top: 40px;
+}
+
+.full-albums-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.see-discography {
+    position: absolute;
+    right: 40px;
+    color: rgb(185, 182, 182);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.see-discography:hover, 
+.full-albums-title:hover {
+    text-decoration: underline;
+}

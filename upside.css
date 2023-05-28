@@ -1,6 +1,6 @@
 .upside {
-    background-color: rgb(54, 53, 53);
-    box-shadow: 5px 5px 100px 30px rgba(99, 98, 98, 0.2);
+    background-color: rgb(133, 131, 131);
+    box-shadow: 5px 5px 100px 150px rgba(104, 102, 102, 0.5);
     height: 350px;
     
 }
@@ -71,7 +71,7 @@
 
 .signup-button {
     display: inline-block;
-    background-color: rgb(54, 53, 53);
+    background-color: transparent;
     border: none;
     color: rgb(177, 177, 177);
     font-weight: bold;
