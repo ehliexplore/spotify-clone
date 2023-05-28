@@ -1,0 +1,52 @@
+.bottom-sidebar {
+    position: fixed;
+
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    z-index: 200;
+    background: linear-gradient(to right, #d400ff, #00aeffc7);
+
+    cursor: pointer;
+}
+
+.bottom-sidebar-line-1 {
+    color: white;
+    position: relative;
+    left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.bottom-sidebar-line-2 {
+    display: flex;
+    color: white;
+    position: relative;
+    left: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    
+    bottom: 5px;
+    
+}
+
+.bottom-sidebar-signup-button {
+    position: relative;
+    right: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    height: 45px;
+    bottom: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bottom-sidebar-signup-button:hover {
+    transform:scale(1.05)
+}

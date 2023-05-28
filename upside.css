@@ -1,7 +1,8 @@
 .upside {
-    background-color: rgb(133, 131, 131);
+    background-color: rgb(107, 106, 110);
     box-shadow: 5px 5px 100px 150px rgba(104, 102, 102, 0.5);
     height: 350px;
+    background: linear-gradient(to right, rgb(111, 112, 117), rgb(126, 126, 129) ,rgb(165, 162, 170));
     
 }
 
