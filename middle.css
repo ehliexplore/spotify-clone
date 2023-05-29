@@ -13,16 +13,22 @@
 }
 
 .play-button {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    align-items: center;
     font-size: 25px;
     background-color: rgb(49, 167, 88);
-    padding-top: 12px;
-    padding-bottom: 11px;
-    padding-left: 18px;
-    padding-right: 15px;
+    height: 60px;
+    width: 60px;
     border: none;
     border-radius: 34px;
     margin-right: 35px;
     cursor: pointer;
+}
+
+.play-symbol {
+    margin-left: 4px;
 }
 
 .play-button:hover {

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="albums.css">
     <link rel="stylesheet" href="bottom-sidebar.css">
 
+    
+
     <title>Éligê | Spotify Clone</title>
 </head>
 <body>
@@ -84,7 +86,8 @@
 
         <div class="middle">
             <div Class="play-and-follow">
-                <button class="play-button">▶</button>
+                <button id="playButton"    class="play-button"><span class="play-symbol">▶</span></button>
+                <audio id="music-1" src="music-1.mp3"></audio>
                 <button class="follow-button">FOLLOW</button>
                 <button class="more-options">...</button>
             </div>
@@ -342,5 +345,6 @@
 
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
