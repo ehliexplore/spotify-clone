@@ -64,6 +64,8 @@
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
+    margin-bottom: 10px;
+
 }
 
 .create-playlist {
@@ -98,4 +100,61 @@
     padding-right: 3px;
     padding-left: 3px;
 
+}
+
+.sidebar-extra-content {
+    font-size: 11px;
+    gap: 10px;
+    margin-top: 45px;
+    margin-right: 10px;
+    width: 210px;
+    color: rgb(170, 168, 168);
+}
+
+.sidebar-extra-content-line {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+    right: 17px;
+}
+
+.sidebar-extra-content-final-line {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar-extra-content-final-line:hover {
+    text-decoration: underline;
+}
+
+.sidebar-extra-content-line span {
+    cursor: pointer;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(185, 183, 183);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    gap: 3px;
+
+}
+
+.world-symbol {
+    height: 17px;
 }
