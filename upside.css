@@ -9,13 +9,14 @@
 
 .artist-picture {
     height: 200px;
-    margin-left: 270px;
+    margin-left: 285px;
     margin-top: 90px;
     border-radius: 100px;
     box-shadow: 5px 5px 40px 10px rgba(0, 0, 0, 0.3);
 
     transform: scale(1.2);
 }
+
 
 .artist-name {
     position: relative;
@@ -25,17 +26,17 @@
     font-weight: bold;
     letter-spacing: -5px;
     width: 300px;
-    margin-left: 490px;
+    margin-left: 505px;
     margin-top: 10px;
 }
 
 .listeners-number {
     position: relative;
     
-    bottom: 130px;
+    bottom: 140px;
     color: white;
     width: 300px;
-    margin-left: 490px;
+    margin-left: 505px;
 }
 
 .verified {
@@ -43,10 +44,14 @@
     position: relative;
     display: flex;
     align-items: center;
-    margin-left: 490px;
+    margin-left: 505px;
     bottom: 355px;
     font-size: 13px;
     width: 300px;
+}
+
+.artist-info {
+    margin-top: 31px;
 }
 
 .verified-symbol {

@@ -68,7 +68,7 @@
 
 .popular-releases-title {
     height: 20px;
-    margin-left: 265px;
+    margin-left: 260px;
     margin-top: 40px;
     color: white;
     font-size: 20px;
@@ -109,7 +109,7 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    margin-left: 5px;
+    
 }
 
 
@@ -131,7 +131,7 @@
     display: flex;
     align-items: center;
     
-    margin-left: 265px;
+    margin-left: 260px;
     margin-top: 40px;
 }
 
@@ -175,9 +175,6 @@
     margin-top: 50px;
 }
 
-.artist-playlists-title {
-    margin-left: 5px;
-}
 
 .artist-playlists-content {
     margin-top: 10px;

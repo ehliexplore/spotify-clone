@@ -37,6 +37,7 @@
 .page-footer {
     margin-top: 60px;
     color: white;
+    font-size: 15px;
 }
 
 .page-footer-links {
@@ -66,4 +67,46 @@
 .useful-links-line:hover {
     text-decoration: underline;
     color: white;
+}
+
+.social-links {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    gap: 25px;
+}
+
+.social-links-div {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(44, 43, 43);
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links-div:hover {
+    background-color: gray;
+}
+
+.social-links-img {
+    height: 15px;
+}
+
+.page-footer-end {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 5px;
+    color:rgb(170, 169, 169);
+    font-size: 14px;
+    height: 100px;
+    width: 1050px;
+    border: solid;
+    border-color:rgb(48, 46, 46);
+    border-width: 1px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 }
