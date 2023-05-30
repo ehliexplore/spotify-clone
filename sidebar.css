@@ -144,7 +144,7 @@
     border: solid;
     border-radius: 20px;
     border-width: 1px;
-    border-color: rgb(185, 183, 183);
+    border-color: rgb(173, 170, 170);
     padding-top: 7px;
     padding-bottom: 7px;
     width: 100px;
@@ -152,9 +152,13 @@
     font-size: 12px;
     cursor: pointer;
     gap: 3px;
-
 }
 
 .world-symbol {
     height: 17px;
+}
+
+.language:hover {
+    transform: scale(1.05);
+    border-color: white;
 }
