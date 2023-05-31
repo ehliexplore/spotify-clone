@@ -82,7 +82,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 40px;
     padding-top: 8px;
     
     border-radius: 5px;
@@ -92,9 +92,20 @@
     right: 40px;
 
     margin-left: 20px;
+    position: relative;
+}
+
+.popular-song-div:hover {
+    .song-index {
+        visibility: hidden;
+    }
+    .popular-song-play-button {
+        visibility: visible;
+    }
 }
 
 .popular-left-side {
+    
     display: flex;
     align-items: center;
     gap: 10px;
@@ -109,8 +120,21 @@
 }
 
 .song-index {
-    margin-right: 8px;
+   
+   position: absolute;
+   left: 13px;
 }
+
+.popular-song-play-button {
+    visibility: hidden;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 13px;
+}
+
+
 
 .song-title {
     cursor: pointer;
